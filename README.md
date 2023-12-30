@@ -1,1 +1,1 @@
-# ChatGPT-voice-assistant
+# ChatGPT voice assistant
