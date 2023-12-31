@@ -18,3 +18,11 @@ I used js, html to get the sound in google colab, which can be seen in the sourc
 
 # Convert audio to text
 To convert voice to text, I took help from one of Openai's products called Whisper, which had several models. I used the large model because I wanted my program to support the Persian language.
+
+# Connect to chatgpt
+```
+API_KEY = "your api key"
+openai.api_key = API_KEY
+response = openai.chat.completions.create(model="gpt-3.5-turbo",messages=[{"role":"user",f"content":x}])
+print(response.choices[0].message.content)
+ ```
