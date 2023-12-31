@@ -6,3 +6,6 @@ To run this program, you must have whisper, openai, gTTS installed
 ``` bash
  pip install openai
 ```
+```
+ pip install whisper
+```
