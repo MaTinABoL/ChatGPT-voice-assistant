@@ -15,3 +15,6 @@ To run this program, you must have whisper, openai, gTTS installed
 
 # Using the microphone in google colab
 I used js, html to get the sound in google colab, which can be seen in the source code.
+
+# Convert audio to text
+To convert voice to text, I took help from one of Openai's products called Whisper, which had several models. I used the large model because I wanted my program to support the Persian language.
