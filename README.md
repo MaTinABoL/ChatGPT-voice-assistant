@@ -9,3 +9,6 @@ To run this program, you must have whisper, openai, gTTS installed
 ```
  pip install whisper
 ```
+```
+ pip install gTTS
+```
