@@ -21,6 +21,8 @@ To convert voice to text, I took help from one of Openai's products called Whisp
 
 # Connect to chatgpt
 ```
+import openai
+
 API_KEY = "your api key"
 openai.api_key = API_KEY
 response = openai.chat.completions.create(model="gpt-3.5-turbo",messages=[{"role":"user",f"content":x}])
