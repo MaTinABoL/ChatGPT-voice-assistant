@@ -28,3 +28,19 @@ openai.api_key = API_KEY
 response = openai.chat.completions.create(model="gpt-3.5-turbo",messages=[{"role":"user",f"content":x}])
 print(response.choices[0].message.content)
  ```
+
+# Convert audio to text using Google
+```
+from gtts import gTTS
+from IPython.display import Audio
+
+file = "./audio1.mp3" // Audio file storage location
+
+gTTS (text = response_text,lang = "en").save(file)
+
+
+wn = Audio("./audio1.mp3", autoplay=True)
+display(wn)
+
+```
+
